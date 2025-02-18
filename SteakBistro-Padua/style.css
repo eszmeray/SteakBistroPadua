@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Godshome.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+    background-color: #0A0200;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.home {
+    background-image: url('Hero\ Section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+
+.navbar .logo {
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4%;
+    padding-top: 1%;
+    background-color: #0A0200;
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-links li {
+    padding-top: 15px;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #c80000;
+}
+
+.contact-btn,
+.discover-btn {
+    background-color: #c80000;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+p {
+    color: white;
+    font-size: 29px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'MyCustomFont', sans-serif;
+
+}
+
+.home {
+    padding-left: 5%;
+    padding-top: 10%;
+
+}
+
+.reserve-btn {
+    background-color: #c80000;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px #c80000 solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.reserve-btn:hover {
+    background-color: #ffffff;
+    color: #c80000;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px #c80000 solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-btn {
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #c80000;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px #c80000 solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+
+}
+
+.about {
+    background-color: #121212;
+    min-height: 100vh;
+}
+
+.highlight {
+    color: #c80000;
+    font-weight: bold;
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+.description {
+    font-size: 18px;
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+}
+
+.aboutImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutImage img {
+    max-width: 100%;
+}
+
+.aboutContent {
+    flex: 1;
+    max-width: 50%;
+}
+
+.menu,
+.menuContent {
+    background-color: #0A0200;
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.menuContent {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.section-title {
+    padding-left: 5%;
+    font-size: 50px;
+}
+
+
+.text-container .selection {
+    padding-left: 5%;
+    padding-right: 40%;
+    line-height: 1.8;
+
+}
+
+.text-box {
+    background-image: url('one.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+.foodTitle {
+    color: #c80000;
+    font-size: 18px;
+}
+
+.selectionTitle {
+    font-size: 50px;
+}
+
+
+.text-box {
+    padding: 0;
+}
+
+
+.text-box-sinigang {
+    background-image: url('two.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+.text-container .selection2 {
+    padding-left: 45%;
+    line-height: 1.8;
+}
+
+.menuImage {
+    max-width: 60%;
+}
+
+.text-box-ensaymada {
+    background-image: url('three.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.text-container .selection3 {
+    padding-left: 5%;
+    padding-right: 40%;
+    line-height: 1.8;
+
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.bi-arrow-left {
+    color: #c80000;
+    font-size: 50px;
+}
+
+.bi-arrow-right-short {
+    color: #5c5c5c;
+    font-size: 50px;
+
+}
+
+.arrow {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+
+}
+
+.bi-arrow-left,
+.bi-arrow-right-short {
+    font-size: 50px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.bi-arrow-left:hover {
+    color: #5c5c5c;
+    transform: translateX(-5px);
+}
+
+.bi-arrow-right-short:hover {
+    color: #c80000;
+    transform: translateX(5px);
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+
+  
+  .events h3 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 3%;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+ 
+  
+ 
+ 
+  
+  .event-carousel {
+    margin-top: 6%;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-events {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+  }
+  
+  .card-events img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3)
+    );
+    z-index: 1; 
+  }
+  
+  .card-events.center {
+    box-shadow: 0px 1px 10px 3px #c80000;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 130px;
+  }
+  
+  .card-events.left,
+  .card-events.right {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-events.left {
+    margin-right: 40px;
+  }
+  
+  .card-events.right {
+    margin-left: 40px;
+  }
+  
+  .card-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 40%;
+    z-index: 2; 
+  }
+  
+  .card-content h4 {
+    padding-top: 20px;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+  
+  .card-content h4 span {
+    color: #c80000;
+  }
+  
+  .card-content p {
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 180%;
+    letter-spacing: 3%;
+  }
+  
+  .view-more {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 35px;
+    background: transparent;
+    border: none;
+    color: #c80000;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .view-more i {
+    font-size: 25px;
+    font-weight: 200;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .view-more:hover i {
+    transform: translateX(10px);
+  }
+
+  span{
+    font-family: 'MyCustomFont', sans-serif;
+
+  }
+
+  .reservation {
+    background-image: url(bgReservation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 70vh;
+
+}
+
+.reservationContent {
+    flex: 1;
+    max-width: 70%;
+    padding-bottom: 30%;
+
+}
+
+.reservation-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+    padding-left: 190px;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 120px 10%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footer-row-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-row-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .footer-about {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 180%;
+  }
+  
+  .links li {
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .links li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .links li a:hover {
+    color: #c80000;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .fa-circle-phone,
+  .fa-circle-envelope,
+  .fa-circle-location-arrow {
+    color: #c80000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-item span {
+    align-items: center;
+    font-size: 14px;
+    line-height: 180%;
+  }
+  
+  .footer-col form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .txtEmail {
+    flex-grow: 1;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 15px 15px;
+    min-width: 250px;
+  }
+  
+  .txtEmail::placeholder {
+    color: #858585;
+    padding-left: 10px;
+  }
+  
+  .btn-Submit {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    background-color: #c80000;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn-Submit:hover {
+    background-color: #a00000;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 110px;
+    margin-bottom: -100px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #848484;
+  }
+  
+  .footer-links a {
+    color: #848484;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-links a:hover {
+    color: #c80000;
+  }
+
+  .footer-reserved{
+    font-size: 12px;
+    color: #848484;
+  }
+
+
+  .address, .emailadd{
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  @media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .about-container, .menuContent {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    
+    .home, .about-container, .menuContent, .events, .reservation {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .aboutImage img, .menuImage img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .text-container {
+        padding: 10px;
+    }
+    
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .menu-toggle {
+        font-size: 20px;
+    }
+    
+    .home h1, .aboutContent h2, .menu h2, .events h2 {
+        font-size: 24px;
+    }
+    
+    .reserve-btn, .view-btn, .discover-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    .footer {
+        padding: 15px;
+    }
+}
